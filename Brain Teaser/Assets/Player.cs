@@ -28,5 +28,18 @@ public class Player : MonoBehaviour
         if(this.CompareTag("Player") && other.CompareTag("Finish")) {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
+        if(this.CompareTag("Cube") && (other.CompareTag("Cube") || other.CompareTag("Player"))) {
+            foreach(Activator button in FindObjectsOfType<Activator>()) {
+                button.canPush = false;
+            }
+        }
+    }
+
+    private void OnTriggerExit(Collider other) {
+        if(this.CompareTag("Cube") && (other.CompareTag("Cube") || other.CompareTag("Player"))) {
+            foreach(Activator button in FindObjectsOfType<Activator>()) {
+                button.canPush = true;
+            }
+        }
     }
 }
