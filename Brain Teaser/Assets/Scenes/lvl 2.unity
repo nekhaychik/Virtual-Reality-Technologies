@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.28502658, g: 0.37139305, b: 0.49600944, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 83f3b6df3c005404890b26dae0a9898b, type: 2}
     - target: {fileID: 2285175032582484486, guid: 2a5e9af48c9f9214aa777f22c5a088d2, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2285175032582484486, guid: 2a5e9af48c9f9214aa777f22c5a088d2, type: 3}
       propertyPath: m_LocalScale.x
@@ -188,7 +188,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2285175032582484488, guid: 2a5e9af48c9f9214aa777f22c5a088d2, type: 3}
       propertyPath: m_Name
-      value: Cude vertical
+      value: Cube vertical
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a5e9af48c9f9214aa777f22c5a088d2, type: 3}
@@ -219,11 +219,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 200190986}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.5, y: 0.5, z: 7.5}
-  m_LocalScale: {x: 6, y: 1, z: 1}
+  m_LocalPosition: {x: -2.8125, y: 0.3125, z: 4.6875}
+  m_LocalScale: {x: 3.75, y: 0.625, z: 0.625}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 1037493547}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &200190988
 BoxCollider:
@@ -384,7 +384,7 @@ Transform:
   m_LocalScale: {x: 3.75, y: 0.625, z: 0.625}
   m_Children: []
   m_Father: {fileID: 1037493547}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &297207667
 BoxCollider:
@@ -494,7 +494,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &725720570
 GameObject:
@@ -671,10 +671,11 @@ Transform:
   - {fileID: 1212461935}
   - {fileID: 1237088452}
   - {fileID: 1786571351}
+  - {fileID: 200190987}
   - {fileID: 297207666}
   - {fileID: 1718472086}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1194971954
 GameObject:
@@ -1095,7 +1096,7 @@ Transform:
   m_LocalScale: {x: 3.75, y: 0.625, z: 0.625}
   m_Children: []
   m_Father: {fileID: 1037493547}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1718472087
 BoxCollider:
@@ -1446,7 +1447,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 45, y: 130, z: 90}
 --- !u!1001 &1466935292389369556
 PrefabInstance:
@@ -1457,7 +1458,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1466935292424509937, guid: 67841c6b8fd3997409dd11ac342b5308, type: 3}
       propertyPath: m_Name
-      value: Cube
+      value: Cube player
       objectReference: {fileID: 0}
     - target: {fileID: 1466935292424509938, guid: 67841c6b8fd3997409dd11ac342b5308, type: 3}
       propertyPath: m_Constraints
@@ -1469,7 +1470,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1466935292424509951, guid: 67841c6b8fd3997409dd11ac342b5308, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1466935292424509951, guid: 67841c6b8fd3997409dd11ac342b5308, type: 3}
       propertyPath: m_LocalScale.x
@@ -1530,11 +1531,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3397623169694460768, guid: c8db6c11b07a85046afe9d0155889c2f, type: 3}
       propertyPath: m_Name
-      value: Cube (1)
+      value: Cube horizontal
       objectReference: {fileID: 0}
     - target: {fileID: 3397623169694460782, guid: c8db6c11b07a85046afe9d0155889c2f, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3397623169694460782, guid: c8db6c11b07a85046afe9d0155889c2f, type: 3}
       propertyPath: m_LocalScale.x
